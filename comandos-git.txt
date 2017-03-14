@@ -1,0 +1,27 @@
+Item 1: 
+git clone -> clona un repositorio creado en GitHub.
+
+Item 2:
+touch factorial.java -> crea un fichero vacío con ese nombre en el directorio donde estás trabajando.
+
+Item 3:
+git add -> prepara al fichero con los cambios hechos para ser confirmado.
+git commit -m “nombre_commit” -> confirma dichos cambios.
+
+Item 5:
+git push origin “nombre_rama” -> envía los cambios de la rama que le pasamos al repositorio de GitHub.
+*origin es el repositorio remoto con el que estamos trabajando.
+
+git checkout -b “nombre_rama” -> crea una nueva rama y cambia el espacio de trabajo a ella.
+
+Item 8:
+git checkout “nombre_rama” -> cambia el espacio de trabajo a la rama que le pases.
+
+Item 12:
+git merge “nombre_rama” -> fusiona la rama en la que estamos con la que le pasamos.
+
+Item 15:
+git stash -> Guarda temporalmente los cambios efectuados a un archivo.
+
+Item 16:
+git stash pop -> Recupera los cambios guardados temporalmente con la función git stash.
